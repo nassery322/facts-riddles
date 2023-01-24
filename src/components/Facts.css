@@ -1,0 +1,23 @@
+.fact{
+    margin-bottom: 20px;   font-size: 1.7rem; 
+}
+
+
+@media (max-width:1000px){
+    .fact{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:800px){
+    .fact{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:600px){
+    .fact{
+        font-size: 1.2rem;
+    }
+}
+

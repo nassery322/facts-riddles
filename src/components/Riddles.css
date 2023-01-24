@@ -1,0 +1,19 @@
+#inputfield{
+    width: 80%; height: 3rem;  background-color: rgb(229, 227, 227); border: none; outline: none; font-size: 1.2rem; margin:10px 0;
+}
+
+.riddle-section{
+    font-size: 1.2rem; margin:10px;
+}
+.riddle-form{
+    margin-top: 10px;
+}
+.fa-xmark{
+    color:red; margin-right: 5px;
+}
+.fa-check{
+    color:#1abc9c; font-size: 1.5rem; margin-right: 5px;
+}
+.answer{
+    font-size: 1.1rem; text-align: left; margin-top: 5px; padding: 5px;
+}
