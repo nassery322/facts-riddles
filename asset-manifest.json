@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/facts-riddles/static/css/main.158918eb.css",
+    "main.js": "/facts-riddles/static/js/main.20913eb8.js",
+    "static/js/787.94dc631d.chunk.js": "/facts-riddles/static/js/787.94dc631d.chunk.js",
+    "static/media/background1.jpg": "/facts-riddles/static/media/background1.3cc7dc064cf7f05bb037.jpg",
+    "static/media/logogreen.png": "/facts-riddles/static/media/logogreen.228912a906effc29ec6e.png",
+    "static/media/logo.svg": "/facts-riddles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/facts-riddles/index.html",
+    "main.158918eb.css.map": "/facts-riddles/static/css/main.158918eb.css.map",
+    "main.20913eb8.js.map": "/facts-riddles/static/js/main.20913eb8.js.map",
+    "787.94dc631d.chunk.js.map": "/facts-riddles/static/js/787.94dc631d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.158918eb.css",
+    "static/js/main.20913eb8.js"
+  ]
+}
