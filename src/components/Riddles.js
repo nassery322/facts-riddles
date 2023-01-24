@@ -58,7 +58,7 @@ const Riddles = props =>{
 
           {riddle &&  <div className='riddle-form'>
                 <form>
-                    <label htmlFor='name'>Your Answere:</label>
+                    <label htmlFor='name'>Your Answer:</label>
                     <input style={styles} ref={inputRef} type='text' id='inputfield' disabled={disabled}/>
                     <BlobButton  onClick={submitHandler} >Check</BlobButton>
                 </form>
