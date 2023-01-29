@@ -14,7 +14,7 @@ const Facts = props => {
         setLoading(true)
         const response = await fetch('https://api.api-ninjas.com/v1/facts?limit=6', {
             method: 'get',
-            headers: { 'X-Api-Key': "644svkDdOvGbw+ME/FphMw==rrkte6TpDpfQ0wG1" },
+            headers: { 'X-Api-Key': process.env.REACT_APP_API_KEY },
             contentType: 'application/json'
         })
         const data = await response.json();

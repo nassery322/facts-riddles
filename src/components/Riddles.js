@@ -23,7 +23,7 @@ const Riddles = props =>{
     setStyles({})
         const response = await fetch('https://api.api-ninjas.com/v1/riddles', {
             method: 'get',
-            headers: { 'X-Api-Key': "644svkDdOvGbw+ME/FphMw==rrkte6TpDpfQ0wG1" },
+            headers: { 'X-Api-Key': process.env.REACT_APP_API_KEY },
             contentType: 'application/json'
         })
         const data = await response.json();
@@ -59,7 +59,7 @@ const Riddles = props =>{
           {riddle &&  <div className='riddle-form'>
                 <form>
                     <label htmlFor='name'>Your Answer:</label>
-                    <input style={styles} ref={inputRef} type='text' id='inputfield' disabled={disabled}/>
+                    <input style={styles} ref={inputRef} type='text' id='inputfield' disabled={disabled}/><br/>
                     <BlobButton  onClick={submitHandler} >Check</BlobButton>
                 </form>
                 <div className='answer'>{displayedAnswer}</div>
